@@ -1,0 +1,9 @@
+FROM: FROM neuralensemble/simulation
+
+USER root
+
+RUN $VENV/bin/pip install sumatra
+
+EXPOSE 8000
+
+WORKDIR /home
