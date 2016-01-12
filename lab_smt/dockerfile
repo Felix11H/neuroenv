@@ -1,4 +1,5 @@
 FROM neuralensemble/simulation
+MAINTAINER felix11h.dev@gmail.com
 
 USER root
 
