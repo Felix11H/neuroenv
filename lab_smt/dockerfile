@@ -1,4 +1,4 @@
-FROM: FROM neuralensemble/simulation
+FROM neuralensemble/simulation
 
 USER root
 
