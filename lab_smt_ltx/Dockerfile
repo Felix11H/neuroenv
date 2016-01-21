@@ -7,7 +7,8 @@ RUN apt-get -yq update && \
         texlive \
         texlive-latex-extra \
 	texlive-science \
-        texlive-math-extra && \
+        texlive-math-extra \
+	texlive-full && \
     apt-get -yq autoremove && \
     apt-get clean -y && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
