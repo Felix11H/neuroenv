@@ -3,7 +3,7 @@ MAINTAINER felix11h.dev@gmail.com
 
 USER root
 
-RUN $VENV/bin/pip install sumatra==0.7.0
+RUN $VENV/bin/pip install sumatra
 
 RUN apt-get -yq update && \
     apt-get install -qy screen
