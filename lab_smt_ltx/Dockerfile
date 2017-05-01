@@ -8,6 +8,7 @@ RUN apt-get -yq update && \
         texlive-latex-extra \
 	texlive-science \
         texlive-math-extra \
+	texlive-fonts-extra \
 	dvipng && \
     apt-get -yq autoremove && \
     apt-get clean -y && \
